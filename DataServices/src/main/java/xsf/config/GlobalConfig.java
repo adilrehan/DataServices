@@ -9,6 +9,7 @@ import java.util.Properties;
 public class GlobalConfig {
 	private static GlobalConfig thisInstance = null;
 	
+	
 	private GlobalConfig() {
 		String configFile = "config.properties";
 		Properties prop = new Properties();
